@@ -21,7 +21,7 @@ One key experiment demonstrated in the original paper is the N-body experiment, 
 
 ## Dataset
 
-The dataset used for the N-body experiment can be found in this GitHub repository. All credit to the original authors, Victor Garcia Satorras, Emiel Hoogeboom, Max Welling, and their contributors.
+The dataset used for the N-body experiment can be found in this [GitHub repository](https://github.com/vgsatorras). All credit to the original authors, Victor Garcia Satorras, Emiel Hoogeboom, Max Welling, and their contributors.
 
 ## Advantages of EGNN
 
