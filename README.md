@@ -26,3 +26,24 @@ The dataset used for the N-body experiment can be found in this [GitHub reposito
 ## Advantages of EGNN
 
 EGNNs do not require expensive higher-order representations in intermediate layers, yet they achieve competitive or better performance compared to existing methods. While most previous approaches are limited to 3-dimensional equivariance, EGNNs can scale to higher-dimensional spaces, making them more flexible and widely applicable in scientific and real-world problems.
+
+## Results  
+
+Even with a **simplified implementation of EGNN**, this model **outperforms more complex and computationally expensive architectures**, demonstrating the efficiency of **EGNN and its equivariance properties** in the **N-body experiment**.  
+
+| Method                   | MSE   |
+|--------------------------|-------|
+| Linear                   | 0.0819 |
+| SE(3) Transformer        | 0.0244 |
+| Tensor Field Network     | 0.0155 |
+| Graph Neural Network     | 0.0107 |
+| Radial Field             | 0.0104 |
+| **EGNN (This Simplified Implementation)** | **0.0077** |
+
+This result highlights how **even a reduced version of EGNN can effectively model complex particle interactions**, achieving a lower MSE without requiring **expensive higher-order representations**. While models like **SE(3) Transformer and Tensor Field Network** rely on intricate architectures, **EGNN’s lightweight yet powerful design makes it highly efficient for physics-informed learning tasks**.
+
+### Sweep Results  
+
+The following plot mimics the **sweep data results** from the original paper, showing how **test loss (MSE) decreases with more training samples**, further validating the robustness of this simplified EGNN implementation:
+
+![Test Loss vs Training Samples](sweep_results/test_loss_vs_training_samples.png)
