@@ -29,7 +29,7 @@ EGNNs do not require expensive higher-order representations in intermediate laye
 
 ## Results  
 
-Even with a **simplified implementation of EGNN**, this model **outperforms more complex and computationally expensive architectures**, demonstrating the efficiency of **EGNN and its equivariance properties** in the **N-body experiment**.  
+Even with a simplified implementation of EGNN, this model outperforms more complex and computationally expensive architectures, demonstrating the efficiency of EGNN and its equivariance properties in the N-body experiment.  
 
 | Method                   | MSE   |
 |--------------------------|-------|
@@ -40,7 +40,7 @@ Even with a **simplified implementation of EGNN**, this model **outperforms more
 | Radial Field             | 0.0104 |
 | **EGNN (This Simplified Implementation)** | **0.0077** |
 
-This result highlights how **even a reduced version of EGNN can effectively model complex particle interactions**, achieving a lower MSE without requiring **expensive higher-order representations**. While models like **SE(3) Transformer and Tensor Field Network** rely on intricate architectures, **EGNN’s lightweight yet powerful design makes it highly efficient for physics-informed learning tasks**.
+This result highlights how **even a reduced version of EGNN can effectively model complex particle interactions**, achieving a lower MSE without requiring expensive higher-order representations. While models like SE(3) Transformer and Tensor Field Network rely on intricate architectures, EGNN’s lightweight yet powerful design makes it highly efficient for physics-informed learning tasks.
 
 ### Sweep Results  
 
